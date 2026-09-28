@@ -192,6 +192,7 @@ macserial -g MacBookPro9,2     # 取 SystemSerialNumber / MLB / SmUUID
 | `csr-active-config` | `03080000`(OCLP 官方建议值) |
 | boot-args | `keepsyms=1 debug=0x100 -amfipassbeta -btlfxboardid ipc_control_port_options=0 gfxrst=1 alcid=18 -no_compat_check`;装系统那份再多一个 `-v` |
 | 板号检查 | `Booter/Patch` 的 `Skip Board ID Check` + `-no_compat_check`(双保险) |
+| `ScanPolicy` | 日常版 `0x101`(只扫 APFS 卷)—— 装了 Windows 也不会被 OC 当成默认项;装系统版仍是 `0`(放宽,否则看不见 U 盘上的安装器) |
 | ACPI 改名 | `EHC1→EH01` / `EHC2→EH02`(内建 hub 上的蓝牙/摄像头/指纹靠它才可见) |
 | USB | `USBInjectAll.kext` 0.7.8(配合上面的改名,声明根端口 + 内置 hub 端口) |
 | IVB 驱动(12+) | EFI 注入 `AppleIntelHD4000Graphics.kext` / `AppleIntelFramebufferCapri.kext`(11.7.10 原件,`MinKernel = 21.0.0` = macOS 12+);**`/Library/Extensions` 里 OCLP 放的那两份别动**(实测 EFI 预链接注入会被 OC 拒掉,真正在跑的就是那一份)—— 见 [`docs/OCLP.md`](docs/OCLP.md) 第 8 节 |
