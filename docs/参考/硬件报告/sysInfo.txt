@@ -1,0 +1,614 @@
+﻿{
+  "CPU": [
+    {
+      "Manufacturer": "GenuineIntel",
+      "Name": "Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz",
+      "NumberOfCores": 2,
+      "NumberOfEnabledCore": 2,
+      "NumberOfLogicalProcessors": 4,
+      "ProcessorId": "BFEBFBFF000306A9",
+      "ThreadCount": 4,
+      "Family": 205,
+      "Description": "Intel64 Family 6 Model 58 Stepping 9",
+      "Caption": "Intel64 Family 6 Model 58 Stepping 9",
+      "Architecture": 9,
+      "DeviceID": "CPU0",
+      "ProcessorType": 3,
+      "SocketDesignation": "CPU Socket - U3E1",
+      "MaxClockSpeed": 2600,
+      "VirtualizationFirmwareEnabled": true,
+      "Codename": "Ivy Bridge",
+      "SIMD Features": "SSE3, SSSE3, SSE4.1, SSE4.2, AVX"
+    }
+  ],
+  "Motherboard": {
+    "Manufacturer": "LENOVO",
+    "Model": "23068CC",
+    "Name": "23068CC",
+    "Product": "23068CC",
+    "SerialNumber": "",
+    "Chipset": "QM77",
+    "Device ID": "8086-1E55",
+    "Platform": "Laptop"
+  },
+  "Monitor": {
+    "LEN40E2": {
+      "Size": 12.7,
+      "EDID": "00FFFFFFFFFFFF0030AEE2400000000000140103801C1078EAD4E59559578B28205054000000010101010101010101010101010101013A1B56705000123030384700159C1000001B3A1B56265100483030384700159C1000001B0000000F008C09328C09281E0A0030E4D802000000FE004C503132355748322D534C42310013",
+      "Resolution": "1366x768",
+      "CurrentRefreshRate": "60",
+      "Connected GPU": "Intel(R) HD Graphics 4000",
+      "Connector Type": "Internal",
+      "HardwareID": "MONITOR\\LEN40E2"
+    }
+  },
+  "Memory": [
+    {
+      "Manufacturer": "Micron",
+      "BankLabel": "BANK 2",
+      "Capacity": 8589934592,
+      "ConfiguredClockSpeed": 1600,
+      "DeviceLocator": "ChannelB-DIMM0",
+      "MemoryType": 24,
+      "PartNumber": "16JTF1G64HZ-1G6E1",
+      "SerialNumber": "(已移除)",
+      "SMBIOSMemoryType": 24,
+      "Speed": 1600
+    }
+  ],
+  "Disk": [
+    {
+      "Manufacturer": "KINGSTON",
+      "Model": "KINGSTON SA400S37240G",
+      "BusType": "SATA",
+      "MediaType": "SSD",
+      "Size": 240057409536,
+      "SerialNumber": "(已移除)",
+      "Controller": "标准 SATA AHCI 控制器",
+      "Controller Device ID": "8086-1E03"
+    },
+    {
+      "Manufacturer": "Samsung",
+      "Model": "Samsung Flash Drive USB Device",
+      "BusType": "USB",
+      "Size": 128320801792,
+      "SerialNumber": "(已移除)",
+      "Controller": "USB 大容量存储设备",
+      "Controller Device ID": "04E8-6300"
+    }
+  ],
+  "Storage Controllers": {
+    "Microsoft 存储空间控制器": {
+      "Bus Type": "Root",
+      "Device": "SPACEPORT",
+      "Manufacturer": "Microsoft"
+    },
+    "Ricoh PCIe SDXC/MMC Host Controller": {
+      "Bus Type": "PCI",
+      "Device ID": "1180-E823",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)",
+      "ACPI Path": "_SB.PCI0.EXP1.SLOT",
+      "Manufacturer": "Ricoh Company"
+    },
+    "标准 SATA AHCI 控制器": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1E03",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1F,0x2)",
+      "ACPI Path": "_SB.PCI0.SAT1",
+      "Manufacturer": "Intel"
+    },
+    "USB 大容量存储设备": {
+      "Bus Type": "USB",
+      "Device ID": "04E8-6300",
+      "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+      "ACPI Path": "_SB.PCI0.XHCI.URTH.SSP1",
+      "Manufacturer": "兼容 USB 存储设备"
+    }
+  },
+  "GPU": {
+    "Intel(R) HD Graphics 4000": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-0166",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+      "ACPI Path": "_SB.PCI0.VID_",
+      "Manufacturer": "Intel",
+      "Device Type": "核心显卡",
+      "RAM Size": 2281701376,
+      "Codename": "Ivy Bridge"
+    }
+  },
+  "Network": {
+    "蓝牙设备(个人区域网)": {
+      "Bus Type": "Bluetooth",
+      "Device": "MS_BTHPAN",
+      "Manufacturer": "Microsoft"
+    },
+    "WAN 微型端口(PPPOE)": {
+      "Bus Type": "SWD",
+      "Device": "MSRRAS",
+      "Manufacturer": "Microsoft"
+    },
+    "WAN 微型端口(PPTP)": {
+      "Bus Type": "SWD",
+      "Device": "MSRRAS",
+      "Manufacturer": "Microsoft"
+    },
+    "Microsoft Wi-Fi Direct 虚拟适配器": {
+      "Bus Type": "{5D624F94-8850-40C3-A3FA-A4FD2080BAF3}",
+      "Device": "VWIFIMP_WFD",
+      "Manufacturer": "Microsoft"
+    },
+    "Microsoft Wi-Fi Direct 虚拟适配器_#1": {
+      "Bus Type": "{5D624F94-8850-40C3-A3FA-A4FD2080BAF3}",
+      "Device": "VWIFIMP_WFD",
+      "Manufacturer": "Microsoft"
+    },
+    "WAN Miniport (IKEv2)": {
+      "Bus Type": "SWD",
+      "Device": "MSRRAS",
+      "Manufacturer": "Microsoft"
+    },
+    "Intel(R) 双频 Wireless-AC 7260": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-08B2",
+      "Subsystem ID": "8086-4270",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)",
+      "ACPI Path": "_SB.PCI0.EXP2",
+      "Manufacturer": "Intel",
+      "SubClass": "128"
+    },
+    "Microsoft 内核调试网络适配器": {
+      "Bus Type": "Root",
+      "Device": "KDNIC",
+      "Manufacturer": "Microsoft"
+    },
+    "WAN 微型端口(网络监视器)": {
+      "Bus Type": "SWD",
+      "Device": "MSRRAS",
+      "Manufacturer": "Microsoft"
+    },
+    "WAN 微型端口(IP)": {
+      "Bus Type": "SWD",
+      "Device": "MSRRAS",
+      "Manufacturer": "Microsoft"
+    },
+    "WAN 微型端口(SSTP)": {
+      "Bus Type": "SWD",
+      "Device": "MSRRAS",
+      "Manufacturer": "Microsoft"
+    },
+    "Intel(R) 82579LM Gigabit Network Connection": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1502",
+      "Subsystem ID": "17AA-21F3",
+      "PCI Path": "PciRoot(0x0)/Pci(0x19,0x0)",
+      "ACPI Path": "_SB.PCI0.IGBE",
+      "Manufacturer": "Intel"
+    },
+    "WAN 微型端口(IPv6)": {
+      "Bus Type": "SWD",
+      "Device": "MSRRAS",
+      "Manufacturer": "Microsoft"
+    },
+    "WAN 微型端口(L2TP)": {
+      "Bus Type": "SWD",
+      "Device": "MSRRAS",
+      "Manufacturer": "Microsoft"
+    }
+  },
+  "Audio": {
+    "High Definition Audio 设备": {
+      "Bus Type": "HDAUDIO",
+      "Device ID": "10EC-0269",
+      "Subsystem ID": "17AA-21FA",
+      "Manufacturer": "Microsoft",
+      "Controller Device ID": "8086-1E20",
+      "Controller": "High Definition Audio 控制器"
+    },
+    "英特尔(R) 显示器音频": {
+      "Bus Type": "HDAUDIO",
+      "Device ID": "8086-2806",
+      "Subsystem ID": "8086-0101",
+      "Manufacturer": "Intel(R) Corporation",
+      "Controller Device ID": "8086-1E20",
+      "Controller": "High Definition Audio 控制器"
+    }
+  },
+  "Audio Controllers": {
+    "High Definition Audio 控制器": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1E20",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1B,0x0)",
+      "ACPI Path": "_SB.PCI0.HDEF"
+    }
+  },
+  "Bluetooth": {
+    "ThinkPad Bluetooth 4.0": {
+      "Bus Type": "USB",
+      "Device ID": "0A5C-21E6",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1A,0x0)",
+      "ACPI Path": "_SB.PCI0.EHC2.URTH.URMH.PRTB",
+      "Manufacturer": "Broadcom",
+      "DeviceDesc": "ThinkPad Bluetooth 4.0"
+    },
+    "Microsoft 蓝牙枚举器": {
+      "Bus Type": "Bluetooth",
+      "Device": "MS_BTHBRB",
+      "Manufacturer": "Microsoft",
+      "DeviceDesc": "Microsoft 蓝牙枚举器"
+    },
+    "Microsoft 蓝牙 LE 枚举器": {
+      "Bus Type": "Bluetooth",
+      "Device": "MS_BTHLE",
+      "Manufacturer": "Microsoft",
+      "DeviceDesc": "Microsoft 蓝牙 LE 枚举器"
+    },
+    "Bluetooth Device (RFCOMM Protocol TDI)": {
+      "Bus Type": "Bluetooth",
+      "Device": "MS_RFCOMM",
+      "Manufacturer": "Microsoft",
+      "DeviceDesc": "Bluetooth Device (RFCOMM Protocol TDI)"
+    }
+  },
+  "USB Controllers": {
+    "Generic USB Hub": {
+      "Bus Type": "USB",
+      "Device ID": "8087-0024",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1A,0x0)",
+      "ACPI Path": "_SB.PCI0.EHC2.URTH.URMH",
+      "Manufacturer": "(Generic USB Hub)",
+      "Host Controller Driver": "usbhub"
+    },
+    "Intel(R) 7 Series/C216 Chipset Family USB Enhanced Host Controller - 1E2D": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1E2D",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1A,0x0)",
+      "ACPI Path": "_SB.PCI0.EHC2",
+      "Manufacturer": "Intel",
+      "Host Controller Driver": "usbehci"
+    },
+    "USB Root Hub": {
+      "Bus Type": "USB",
+      "Device": "ROOT_HUB20",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1A,0x0)",
+      "ACPI Path": "_SB.PCI0.EHC2.URTH",
+      "Manufacturer": "(标准 USB 主控制器)",
+      "Host Controller Driver": "usbhub"
+    },
+    "Generic USB Hub_#1": {
+      "Bus Type": "USB",
+      "Device ID": "8087-0024",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1D,0x0)",
+      "ACPI Path": "_SB.PCI0.EHC1.URTH.URMH",
+      "Manufacturer": "(Generic USB Hub)",
+      "Host Controller Driver": "usbhub"
+    },
+    "USB Composite Device": {
+      "Bus Type": "USB",
+      "Device ID": "5986-02D2",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1A,0x0)",
+      "ACPI Path": "_SB.PCI0.EHC2.URTH.URMH.PRTD",
+      "Manufacturer": "(标准 USB 主控制器)",
+      "Host Controller Driver": "usbccgp"
+    },
+    "Intel(R) USB 3.0 可扩展主机控制器 - 1.0 (Microsoft)": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1E31",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+      "ACPI Path": "_SB.PCI0.XHCI",
+      "Manufacturer": "Intel",
+      "Host Controller Driver": "USBXHCI"
+    },
+    "USB Root Hub_#1": {
+      "Bus Type": "USB",
+      "Device": "ROOT_HUB20",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1D,0x0)",
+      "ACPI Path": "_SB.PCI0.EHC1.URTH",
+      "Manufacturer": "(标准 USB 主控制器)",
+      "Host Controller Driver": "usbhub"
+    },
+    "Intel(R) 7 Series/C216 Chipset Family USB Enhanced Host Controller - 1E26": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1E26",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1D,0x0)",
+      "ACPI Path": "_SB.PCI0.EHC1",
+      "Manufacturer": "Intel",
+      "Host Controller Driver": "usbehci"
+    },
+    "USB 根集线器(USB 3.0)": {
+      "Bus Type": "USB",
+      "Device": "ROOT_HUB30",
+      "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+      "ACPI Path": "_SB.PCI0.XHCI.URTH",
+      "Manufacturer": "(标准 USB 集线器)",
+      "Host Controller Driver": "USBHUB3"
+    }
+  },
+  "System": {
+    "Caption": "Windows 10 专业工作站版",
+    "CSName": "(已移除)",
+    "OSArchitecture": "64",
+    "BuildNumber": "19045",
+    "SerialNumber": "(已移除)",
+    "kernel": "10.0.19045",
+    "Architecture": "x86_64"
+  },
+  "BIOS": {
+    "Version": "G2ETB7WW (2.77 )",
+    "Release Date": "09/24/2019",
+    "System Type": "x64-based",
+    "Firmware Type": "UEFI",
+    "CSM": false,
+    "Secure Boot": false,
+    "AHCI": true,
+    "Resizable BAR": false,
+    "Above 4G Decoding": false
+  },
+  "Input": {
+    "USB 输入设备": {
+      "Bus Type": "USB",
+      "Device ID": "17EF-6019",
+      "ACPI Path": "_SB.PCI0.EHC2.URTH.URMH.PRT9",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1A,0x0)",
+      "Device Type": "USB"
+    },
+    "HID-compliant mouse": {
+      "Bus Type": "HID",
+      "Device ID": "17EF-6019",
+      "Device Type": "USB"
+    },
+    "PS/2 兼容鼠标": {
+      "Bus Type": "ACPI",
+      "Device": "LEN0020",
+      "ACPI Path": "_SB.PCI0.LPC_.MOU_",
+      "Device Type": "PS/2"
+    },
+    "PS/2 标准键盘": {
+      "Bus Type": "ACPI",
+      "Device": "LEN0071",
+      "ACPI Path": "_SB.PCI0.LPC_.KBD_",
+      "Device Type": "PS/2"
+    }
+  },
+  "Biometric": {
+    "Biometric Coprocessor": {
+      "Bus Type": "USB",
+      "Device ID": "147E-2020",
+      "ACPI Path": "_SB.PCI0.EHC2.URTH.URMH.PRTA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1A,0x0)"
+    }
+  },
+  "SD Controllers": {},
+  "Camera": {
+    "Integrated Camera": {
+      "Bus Type": "USB",
+      "Device ID": "5986-02D2",
+      "ACPI Path": "_SB.PCI0.EHC2.URTH.URMH.PRTD.WCAM",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1A,0x0)"
+    }
+  },
+  "Others": {
+    "SM 总线控制器": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1E22",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1F,0x3)",
+      "ACPI Path": "_SB.PCI0.SMBU",
+      "Manufacturer": "Intel",
+      "DeviceDesc": "SM 总线控制器",
+      "HardwareID": "PCI\\VEN_8086&DEV_1E22&SUBSYS_21FA17AA&REV_04"
+    },
+    "Unknown Device": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0.LPC_.EC__.WGSH",
+      "Device": "ACPI\\VEN_LEN&DEV_0078",
+      "HardwareID": "ACPI\\VEN_LEN&DEV_0078"
+    }
+  },
+  "System Devices": {
+    "Microsoft ACPI 兼容的嵌入式控制器": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0.LPC_.EC__",
+      "Device": "PNP0C09"
+    },
+    "系统计时器": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0.LPC_.TIMR",
+      "Device": "PNP0100"
+    },
+    "PCI Express 根复合体": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0",
+      "Device": "PNP0A03"
+    },
+    "ACPI 热区域": {
+      "Bus Type": "ACPI",
+      "Device": "THERMALZONE",
+      "ACPI Path": "_SB.THM0"
+    },
+    "ACPI 睡眠按钮": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.SLPB",
+      "Device": "PNP0C0E"
+    },
+    "High Definition Audio 控制器": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1E20",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1B,0x0)",
+      "ACPI Path": "_SB.PCI0.HDEF"
+    },
+    "系统板": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.MEM_",
+      "Device": "PNP0C01"
+    },
+    "Microsoft Windows Management Interface for ACPI": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.WMI1",
+      "Device": "PNP0C14"
+    },
+    "Microsoft Windows Management Interface for ACPI_#1": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.WMI2",
+      "Device": "PNP0C14"
+    },
+    "Microsoft Windows Management Interface for ACPI_#2": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.WMI3",
+      "Device": "PNP0C14"
+    },
+    "Microsoft Hyper-V 虚拟化基础结构驱动程序": {
+      "Bus Type": "Root",
+      "Device": "VID"
+    },
+    "复合总线枚举器": {
+      "Bus Type": "Root",
+      "Device": "COMPOSITEBUS"
+    },
+    "Microsoft 虚拟驱动器枚举器": {
+      "Bus Type": "Root",
+      "Device": "VDRVROOT"
+    },
+    "PCI 到 PCI 桥": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1E12",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1C,0x1)",
+      "ACPI Path": "_SB.PCI0.EXP2"
+    },
+    "系统扬声器": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0.LPC_.SPKR",
+      "Device": "PNP0800"
+    },
+    "Lenovo PM Device": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0.LPC_.EC__.HKEY",
+      "Device": "LEN0068"
+    },
+    "ACPI 盖子": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.LID_",
+      "Device": "PNP0C0D"
+    },
+    "PCI 到 PCI 桥_#1": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1E10",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1C,0x0)",
+      "ACPI Path": "_SB.PCI0.EXP1"
+    },
+    "直接内存访问控制器": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0.LPC_.DMAC",
+      "Device": "PNP0200"
+    },
+    "UMBus Root Bus Enumerator": {
+      "Bus Type": "Root",
+      "Device": "UMBUS"
+    },
+    "充电均衡驱动程序": {
+      "Bus Type": "Root",
+      "Device": "CAD"
+    },
+    "系统 CMOS/实时时钟": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0.LPC_.RTC_",
+      "Device": "PNP0B00"
+    },
+    "高精度事件计时器": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0.LPC_.HPET",
+      "Device": "PNP0103"
+    },
+    "Microsoft ACPI-Compliant System": {
+      "Bus Type": "ACPI_HAL",
+      "Device": "PNP0C08"
+    },
+    "ACPI 固定功能按钮": {
+      "Bus Type": "ACPI",
+      "Device": "FIXEDBUTTON"
+    },
+    "内存控制器": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-0154",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)",
+      "ACPI Path": "_SB.PCI0"
+    },
+    "LPC 控制器": {
+      "Bus Type": "PCI",
+      "Device ID": "8086-1E55",
+      "Subsystem ID": "17AA-21FA",
+      "PCI Path": "PciRoot(0x0)/Pci(0x1F,0x0)",
+      "ACPI Path": "_SB.PCI0.LPC_"
+    },
+    "NDIS 虚拟网络适配器枚举器": {
+      "Bus Type": "Root",
+      "Device": "NDISVIRTUALBUS"
+    },
+    "可编程中断控制器": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0.LPC_.PIC_",
+      "Device": "PNP0000"
+    },
+    "Microsoft System Management BIOS Driver": {
+      "Bus Type": "Root",
+      "Device": "MSSMBIOS"
+    },
+    "即插即用软件设备枚举器": {
+      "Bus Type": "Root",
+      "Device": "SYSTEM"
+    },
+    "IWD Bus Enumerator": {
+      "Bus Type": "Root",
+      "Device": "SYSTEM"
+    },
+    "远程桌面设备重定向程序总线": {
+      "Bus Type": "Root",
+      "Device": "RDPBUS"
+    },
+    "数值数据处理器": {
+      "Bus Type": "ACPI",
+      "ACPI Path": "_SB.PCI0.LPC_.FPU_",
+      "Device": "PNP0C04"
+    }
+  },
+  "_meta": {
+    "tool": "sysInfo",
+    "version": "1.0.0",
+    "author": "JeoJay127",
+    "requested": [
+      "CPU",
+      "GPU",
+      "Memory",
+      "Disk",
+      "Storage Controllers",
+      "Network",
+      "Audio",
+      "Audio Controllers",
+      "Bluetooth",
+      "USB Controllers",
+      "Input",
+      "Biometric",
+      "Camera",
+      "SD Controllers",
+      "Others",
+      "System Devices",
+      "Monitor",
+      "System",
+      "Motherboard",
+      "BIOS"
+    ],
+    "totalDurationMs": 636,
+    "timestamp": 1790478955
+  }
+}

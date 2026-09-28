@@ -1,0 +1,17 @@
+# macOS / 编辑器
+.DS_Store
+._*
+*.swp
+
+# 本机的现场照片原图(带 EXIF/GPS),入库的是 docs/images/ 里的脱敏版
+/1790498620524.jpg
+
+# 本机现场的诊断日志(含真机 UUID / 序列号 / MAC),只在本机看,不进仓库
+/oclp-diag-*.txt
+/opencore-*.txt
+/ivb-check-*.txt
+/ivb-now-*.txt
+/ivb-snap-*.txt
+
+# 本机现场照片原图,同上(入库用脱敏版)
+/MVIMG_*.jpg
